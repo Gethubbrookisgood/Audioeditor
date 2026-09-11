@@ -23,10 +23,10 @@ from mutagen.id3 import ID3, TIT2, TPE1, TALB, TDRC, TCON, USLT, APIC
 from mutagen.mp3 import MP3
 
 # إعدادات البوت من متغيرات البيئة أو الإعدادات المباشرة
-API_ID = int(os.environ.get("API_ID", "12345678"))
-API_HASH = os.environ.get("API_HASH", "your_api_hash_here")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "your_bot_token_here")
-CHANNEL_USERNAME = os.environ.get("CHANNEL_USERNAME", "@MyMusicChannel")
+API_ID = 30826860
+API_HASH = "4b78b969a0a63b92127de3c507bd99f0"
+BOT_TOKEN = "8936664404:AAE7QpudfqQAze1GBfuMmxgnbQY4Ld_4pAo"
+CHANNEL_USERNAME = "@epicshitting"
 
 # مجلد العمل المؤقت
 DOWNLOAD_DIR = "downloads"
